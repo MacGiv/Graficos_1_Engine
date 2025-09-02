@@ -21,7 +21,7 @@ int main(void)
     glfwMakeContextCurrent(window);
 
     if (glewInit() != GLEW_OK)
-        return -1;
+        return -1; 
 
     float positions[6] = {
         -0.5f, -0.5f,
